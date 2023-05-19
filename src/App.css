@@ -13,6 +13,11 @@
   }
 }
 
+.search-input {
+  width: 350px;
+  font-size: 18px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +27,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-actions {
+  margin-left: 1px;
 }
 
 .App-link {
