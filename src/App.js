@@ -163,13 +163,14 @@ class App extends Component {
               placeholder="Buscar..."
               onKeyUp={this.handleChange}
             />
+            <button className="btn btn-buscar" >Buscar</button>
             <button className="btn btn-success" onClick={() => { this.setState({ form: { code: "", name: "", description: "" }, tipoModal: 'insertar' }); this.modalInsertar() }}>Agregar</button>
         </div>
         <table className="table">
           <thead>
             <tr>
-              <th>Codigo</th>
-              <th>Nombre</th>
+              <th>Code</th>
+              <th>Name</th>
               <th>Descripcion</th>
               <th>Acciones</th>
             </tr>
